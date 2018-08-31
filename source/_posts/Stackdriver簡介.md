@@ -13,11 +13,12 @@ Stackdriver 提供基本級和進階級。進階級採統一費率，每項應�
 [免費配額](https://cloud.google.com/stackdriver/pricing_v2)：
 
 **Monitoring**
-可以蒐集更多GCP VM裡背景運作的服務到GCP來監控。包含了disk cpu network process metrics，也可監控第三方方應用程式。
+可清楚監控雲端應用程式的效能、運作時間與整體健康狀態，蒐集GCP VM裡背景運作的服務到GCP來監控。
+若安裝 **monitoring agent** 可以訪問額外的系統資源和應用服務以及[Third-party Applications](https://cloud.google.com/monitoring/agent/plugins/)，即使不安裝 **monitoring agent**，也可以監控disk、cpu、network、process…等資源。
 ![](/img/fee-monitoring.png)
 
 **Logging**
-儲存、搜尋、分析、監控 GCP 與 AWS 的記錄資料與事件，可即時分析所有記錄資料。
+儲存、搜尋、分析、監控 GCP 與 AWS 的記錄資料與事件，可即時分析所有記錄資料。若安裝 **logging agent** 可以蒐集第三方應用程式和系統應用程式的log，預設的[logs清單](https://cloud.google.com/logging/docs/agent/default-logs)
 ![](/img/fee-logging.png)
 
 
@@ -26,6 +27,14 @@ Stackdriver 提供基本級和進階級。進階級採統一費率，每項應�
 開始監控前須先建立Stackdriver帳號
 ![](/img/Account-1.png)
 ![](/img/Account-2.png)
+
+##  
+也可監控第三方方應用程式。
+
+## logging agent
+
+
+
 
 #### 安裝 monitoring agent 與 logging agent
 **Windows 下載連結**
