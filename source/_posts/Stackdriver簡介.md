@@ -28,13 +28,6 @@ Stackdriver 提供基本級和進階級。進階級採統一費率，每項應�
 ![](/img/Account-1.png)
 ![](/img/Account-2.png)
 
-##  
-也可監控第三方方應用程式。
-
-## logging agent
-
-
-
 
 #### 安裝 monitoring agent 與 logging agent
 **Windows 下載連結**
