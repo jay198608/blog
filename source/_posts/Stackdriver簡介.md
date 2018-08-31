@@ -22,25 +22,4 @@ Stackdriver 提供基本級和進階級。進階級採統一費率，每項應�
 ![](/img/fee-logging.png)
 
 
-
-## 建立 Stackdriver 帳號
-開始監控前須先建立Stackdriver帳號
-![](/img/Account-1.png)
-![](/img/Account-2.png)
-
-
-#### 安裝 monitoring agent 與 logging agent
-**Windows 下載連結**
-[Monitoring aggent](https://repo.stackdriver.com/windows/StackdriverMonitoring-GCM-46.exe)
-[Logging agent](https://dl.google.com/cloudagents/windows/StackdriverLogging-v1-8.exe)
-
-
-#### Linux指令
-```
-# To install the Stackdriver monitoring agent:
-$ curl -sSO https://dl.google.com/cloudagents/install-monitoring-agent.sh
-$ sudo bash install-monitoring-agent.sh
-# To install the Stackdriver logging agent:
-$ curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
-$ sudo bash install-logging-agent.sh
 ```
