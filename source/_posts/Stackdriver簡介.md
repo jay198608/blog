@@ -18,7 +18,8 @@ Stackdriver 提供基本級和進階級。進階級採統一費率，每項應�
 ![](/img/fee-monitoring.png)
 
 **Logging**
-儲存、搜尋、分析、監控 GCP 與 AWS 的記錄資料與事件，可即時分析所有記錄資料。若安裝 **logging agent** 可以蒐集第三方應用程式和系統應用程式的log，預設的[logs清單](https://cloud.google.com/logging/docs/agent/default-logs)。
+儲存、搜尋、分析、監控 GCP 與 AWS 的記錄資料與事件，可即時分析所有記錄資料。
+若安裝 **logging agent** 可以蒐集第三方應用程式和系統應用程式的log，預設的[logs清單](https://cloud.google.com/logging/docs/agent/default-logs)。
 ![](/img/fee-logging.png)
 
 
