@@ -3,10 +3,13 @@ title: Stackdriver 監控
 date: 2018-08-06 17:00:23
 tags:
 ---
-## 建立 Stackdriver 帳號
+## 一、建立 Stackdriver 帳號
 開始監控前須先建立Stackdriver帳號
 ![](/img/Account-1.png)
 ![](/img/Account-2.png)
+
+**Monitoring Overview**
+![](/img/Monitoring_Overview.png)
 
 #### 安裝 monitoring agent 與 logging agent
 **Windows 下載連結**
@@ -25,10 +28,10 @@ $ sudo bash install-logging-agent.sh
 ```
 
 
-## 建立Group
+## 二、建立Group
 ![](/img/Group.png)
 
-## Uptime Check
+## 三、Uptime Check
 透過從世界各地來驗證服務的可用性，經過的地區有維吉尼亞州、奧勒岡州、愛荷華州、比利時、新加坡、聖保羅，每個Stackdriver帳戶最多可建立100個Uptime Checks，第一次建立需等候一段時間。以下以驗證HTTP來作示範。
 ![](/img/UptimeCheck_Dashboard.png)
 
@@ -49,14 +52,19 @@ sudo service apache2 restart
 
 
 
-5. 新增告警
+## 四、新增告警
 ![](/img/Alert_Set.png)
 **Conditions**：設定監控instance、LB...等條件
 **Notifications**：告警通知可選擇Email、簡訊、Slack…等通知方式
 **Documentation**：設定當觸發告警時，發送email時的訊息內容
 **Name this policy**：命名該告警政策名稱
+**Conditions**：設定監控inst
 
-## 建立Dashboards
+**告警mail**
+![](/img/Alert_mail.png)
+
+
+## 五、建立Dashboards
 進入Dashboard點選「ADD CHART」，在METRIC選擇「Resoruce type」與「Metric」並save即完成一張圖表。
 ![](/img/dashboard.png)
 
@@ -64,15 +72,15 @@ sudo service apache2 restart
 ![](/img/dashboard-2.png)
 
 **查看圖表**
-![](img/dashboard-1.png)
+![](/img/dashboard-1.png)
 
 **公開分享圖表**
 分享的圖表URL可直接分享給其他人
-![](img/dashboard-share.png)
+![](/img/dashboard-share.png)
 
 **View Log**
-![](img/dashboard-log.png)
+![](/img/dashboard-log.png)
 
 **Public Charts**
 可查看公開分享的圖表資料，也可點 Unshare 取消分享。
-![](img/PublicCharts.png)
+![](/img/PublicCharts.png)
