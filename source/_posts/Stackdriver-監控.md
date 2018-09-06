@@ -27,11 +27,23 @@ $ curl -sSO https://dl.google.com/cloudagents/install-logging-agent.sh
 $ sudo bash install-logging-agent.sh
 ```
 
+## 二、Resources - Metrics Explorer
+**Metric設定**
+Resource types：監控的資源
+Select a metric：選擇監控該資源的指標
+![](/img/UptimeCheck_Dashboard.png)
 
-## 二、建立Group
-![](/img/Group.png)
+**View Options**
+依喜好調整圖表的模式、參考值、歷史資料…等設定。
+![](/img/Resources_Metrics Explorer_Viewoptions.png)
 
-## 三、Uptime Check
+**調整線圖模型**
+![](/img/Resources_Metrics Explorer_Line.png)
+
+## 三、建立Group
+![](/img/Resources_Metrics Explorer_Metric.png)
+
+## 四、Uptime Check
 透過從世界各地來驗證服務的可用性，經過的地區有維吉尼亞州、奧勒岡州、愛荷華州、比利時、新加坡、聖保羅，每個Stackdriver帳戶最多可建立100個Uptime Checks，第一次建立需等候一段時間。以下以驗證HTTP來作示範。
 ![](/img/UptimeCheck_Dashboard.png)
 
@@ -52,7 +64,7 @@ sudo service apache2 restart
 
 
 
-## 四、新增告警
+## 五、新增告警
 ![](/img/Alert_Set.png)
 **Conditions**：設定監控instance、LB...等條件
 **Notifications**：告警通知可選擇Email、簡訊、Slack…等通知方式
@@ -64,7 +76,7 @@ sudo service apache2 restart
 ![](/img/Alert_mail.png)
 
 
-## 五、建立Dashboards
+## 六、建立Dashboards
 進入Dashboard點選「ADD CHART」，在METRIC選擇「Resoruce type」與「Metric」並save即完成一張圖表。
 ![](/img/dashboard.png)
 
