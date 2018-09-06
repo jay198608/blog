@@ -41,7 +41,7 @@ Select a metric：選擇監控該資源的指標
 ![](/img/Resources_Metrics Explorer_Line.png)
 
 ## 三、建立Group
-![](/img/Resources_Metrics Explorer_Metric.png)
+![](/img/Group.png)
 
 ## 四、Uptime Check
 透過從世界各地來驗證服務的可用性，經過的地區有維吉尼亞州、奧勒岡州、愛荷華州、比利時、新加坡、聖保羅，每個Stackdriver帳戶最多可建立100個Uptime Checks，第一次建立需等候一段時間。以下以驗證HTTP來作示範。
