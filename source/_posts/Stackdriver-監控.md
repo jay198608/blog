@@ -70,7 +70,7 @@ sudo service apache2 restart
 **Notifications**：告警通知可選擇Email、簡訊、Slack…等通知方式
 **Documentation**：設定當觸發告警時，發送email時的訊息內容
 **Name this policy**：命名該告警政策名稱
-**Conditions**：設定監控inst
+
 
 **告警mail**
 ![](/img/Alert_mail.png)
