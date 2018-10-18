@@ -65,15 +65,36 @@ sudo service apache2 restart
 
 
 ## 五、新增告警
-![](/img/Alert_Set.png)
+以 Email 與 SLACK 進行測試
+
+1. Slack先建立頻道
+![](/img/alert00.png)
+
+2. 先至GCP專案設定SLACK授權
+![](/img/alert01.png)
+![](/img/alert02.png)
+![](/img/alert03.png)
+
+3. 點「Test Connection」測試是否可連接到Slack
+![](/img/alert04.png)
+
+4. 連接成功按「Save」
+![](/img/alert05.png)
+
+5. Alert新增 Notification，設定Email、Slack為告警管道
+![](/img/alert06.png)
+![](/img/alert07.png)
 **Conditions**：設定監控instance、LB...等條件
 **Notifications**：告警通知可選擇Email、簡訊、Slack…等通知方式
 **Documentation**：設定當觸發告警時，發送email時的訊息內容
 **Name this policy**：命名該告警政策名稱
 
+6. GCP發送Slack告警
+![](/img/alert08.png)
 
-**告警mail**
-![](/img/Alert_mail.png)
+7. GCP發送Email告警
+![](/img/alert09.png)
+
 
 
 ## 六、建立Dashboards
