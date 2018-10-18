@@ -71,7 +71,7 @@ sudo service apache2 restart
 ![](/img/alert00.png)
 
 
-2. 先至GCP專案設定SLACK授權
+2. 至GCP專案設定SLACK授權
 ![](/img/alert01.png)
 ![](/img/alert02.png)
 ![](/img/alert03.png)
