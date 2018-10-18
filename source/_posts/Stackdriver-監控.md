@@ -70,6 +70,7 @@ sudo service apache2 restart
 1. Slack先建立頻道
 ![](/img/alert00.png)
 
+
 2. 先至GCP專案設定SLACK授權
 ![](/img/alert01.png)
 ![](/img/alert02.png)
@@ -84,13 +85,17 @@ sudo service apache2 restart
 5. Alert新增 Notification，設定Email、Slack為告警管道
 ![](/img/alert06.png)
 ![](/img/alert07.png)
+
+#### Alert設定相關說明：
 **Conditions**：設定監控instance、LB...等條件
 **Notifications**：告警通知可選擇Email、簡訊、Slack…等通知方式
 **Documentation**：設定當觸發告警時，發送email時的訊息內容
 **Name this policy**：命名該告警政策名稱
 
+
 6. GCP發送Slack告警
 ![](/img/alert08.png)
+
 
 7. GCP發送Email告警
 ![](/img/alert09.png)
